@@ -8,6 +8,8 @@ async function searchImage(name) {
   const URL = `${ENDPOINT}?${KEY}&q=${name}&${options}`;
   // const response = wait.axios.get(URL);
   return wait.axios.get(URL);
+  
 }
 
-// export default searchImage;
+// searchImage(cat)
+export default searchImage;
